@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  baseUrl: phenks.github.io/WanzenTanzen
   ignorePatterns:
     - private
     - templates
