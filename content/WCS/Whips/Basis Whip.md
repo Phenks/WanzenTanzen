@@ -1,9 +1,14 @@
 ---
 aliases:
+  - test
 count:
+  - 8-Count
 figur:
+  - Whip
 schwierigkeit:
+  - Easy
 ---
+
 ## Beschreibung
 
 Kurze Beschreibung der Figur. Was passiert, worauf muss man achten?
@@ -12,7 +17,7 @@ Kurze Beschreibung der Figur. Was passiert, worauf muss man achten?
 
   
 
-![](https://www.youtube.com/watch?v=XXXXX)
+![](https://www.youtube.com/watch?v=LcE0i23bLc4)
 
 ## Hinweise
 

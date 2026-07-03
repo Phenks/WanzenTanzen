@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Wanzen Tanzen
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -123,6 +123,10 @@ plugins:
     enabled: true
   - source: github:quartz-community/explorer
     enabled: true
+    options:
+      title: Tänze
+      folderDefaultState: "open"
+      useSavedState: false
     layout:
       position: left
       priority: 50
@@ -218,6 +222,9 @@ plugins:
         - description
         - tags
         - aliases
+        - figur
+        - count
+        - schwierigkeit
       excludedProperties: []
       hidePropertiesView: false
       delimiters: ---
