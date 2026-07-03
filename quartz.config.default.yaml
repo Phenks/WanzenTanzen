@@ -13,33 +13,29 @@ configuration:
     - templates
     - .obsidian
   theme:
-    fontOrigin: googleFonts
-    cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: "Playfair Display"
+      body: "Lato"
+      code: "IBM Plex Mono"
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#faf4ed"
+        lightgray: "#dfdad9"
+        gray: "#9893a5"
+        darkgray: "#575279"
+        dark: "#286983"
+        secondary: "#d7827e"
+        tertiary: "#b4637a"
+        highlight: "rgba(215, 130, 126, 0.15)"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#191724"
+        lightgray: "#26233a"
+        gray: "#6e6a86"
+        darkgray: "#e0def4"
+        dark: "#e0def4"
+        secondary: "#31748f"
+        tertiary: "#9ccfd8"
+        highlight: "rgba(49, 116, 143, 0.15)"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
