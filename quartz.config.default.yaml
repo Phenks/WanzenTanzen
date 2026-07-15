@@ -1,5 +1,11 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
+  head:
+    - tag: script
+      attrs:
+        src: /practice-tracker.js
+        defer: true
+        type: module
   pageTitle: Wanzen Tanzen
   pageTitleSuffix: ""
   enableSPA: true

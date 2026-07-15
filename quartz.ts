@@ -1,4 +1,5 @@
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
+import { PracticeTracker } from "./quartz/components"
 
 const config = await loadQuartzConfig({
   head: [
@@ -13,4 +14,13 @@ const config = await loadQuartzConfig({
 })
 
 export default config
-export const layout = await loadQuartzLayout()
+export const layout = await loadQuartzLayout({
+  byPageType: {
+    content: {
+      afterBody: [PracticeTracker()],
+    },
+    folder: {
+      afterBody: [PracticeTracker()],
+    },
+  },
+})
