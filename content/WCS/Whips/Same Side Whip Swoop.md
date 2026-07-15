@@ -7,6 +7,8 @@ figur:
   - Whip
 schwierigkeit:
   - Easy
+encrypted: true
+password: Zenit!
 ---
 
 ## Beschreibung

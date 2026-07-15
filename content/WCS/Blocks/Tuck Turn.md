@@ -7,6 +7,8 @@ figur:
   - Tuck Turn
 schwierigkeit:
   - Easy
+encrypted: true
+password: Zenit!
 ---
 
 ## Beschreibung

@@ -3,7 +3,8 @@
 title: Tanzfiguren
 
 description: Unsere wachsende Sammlung an West Coast Swing Figuren
-
+encrypted: true
+password: wanzentanzen
 ---
 
   
