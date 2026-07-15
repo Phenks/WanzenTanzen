@@ -8,7 +8,7 @@ figur:
 schwierigkeit:
   - Easy
 encrypted: true
-password: wanzentanzen
+password: Zenit!
 ---
 
 ## Beschreibung
